@@ -1,0 +1,32 @@
+.navBar{
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 20px;
+
+    background-color: var(--firstColor);
+}
+
+.navBar h3{
+    color: var(--thridColor)
+}
+
+.navBar button{
+    border-radius: 10px;
+    border: none;
+
+    color: var(--fifthColor);
+    background-color: var(--thridColor);
+    
+    padding: 10px 15px;
+
+    cursor: pointer;
+}

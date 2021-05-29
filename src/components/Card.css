@@ -1,0 +1,60 @@
+.outerCard{
+
+    width: 250px;
+    height: 325px;
+
+    background-color: var(--forthColor);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 20px;
+}
+
+.innerCard{
+    width: 90%;
+    height: 90%;
+
+    text-align: center;
+
+    padding: 10px;
+
+    background-color: var(--thridColor);
+}
+
+.innerCard h1{
+    font-size: 72px;
+}
+
+.innerCard p{
+    font-size: 16px;
+
+    margin-top: 10%;
+}
+
+.innerCard p.actions{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    margin-top: 5%;
+}
+
+.buttons button{
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button div{
+    width: 36px;
+    height: 36px;
+
+    background-color: var(--secondColor);
+}
